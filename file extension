@@ -1,0 +1,8 @@
+name=(input("Enter a file name"))
+name = name.split('.')
+if name[1]=="py":
+    n="python"
+    print("The extention of the file is:",n)
+else:
+    print ("The extention of the file is:",name[1])
+    
